@@ -1,3 +1,4 @@
+#update php to latest version
 FROM php:7.4-apache
 # add apache conf so you can run your laravel by copy your project to /var/www/html
 COPY docker/vhost.conf /etc/apache2/sites-available/000-default.conf
